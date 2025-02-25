@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9174415059249277822
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1915346542388037342}
+  - component: {fileID: 823170917264277118}
+  - component: {fileID: 2765730145050538288}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1915346542388037342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9174415059249277822}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.7467577, y: 2.6102993, z: 0.026091762}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &823170917264277118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9174415059249277822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f366fee37feb81f4f88893b530c8211a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  statusText: {fileID: 0}
+  milkText: {fileID: 0}
+  woodText: {fileID: 0}
+  stoneText: {fileID: 0}
+  foodText: {fileID: 0}
+  eggsText: {fileID: 0}
+  actionIcon: {fileID: 0}
+  sleepIcon: {fileID: 0}
+  happyIcon: {fileID: 0}
+  tiredIcon: {fileID: 0}
+  deadIcon: {fileID: 0}
+  gameOverScreen: {fileID: 0}
+  backgroundMusicSource: {fileID: 0}
+  sleepMusicSource: {fileID: 0}
+  gameOverMusicSource: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: c52ac0e73f2246146baba7ec416503c1, type: 3}
+  sleepMusic: {fileID: 8300000, guid: 54b522eeb124c4b4ab14b269e7d768e1, type: 3}
+  gameOverMusic: {fileID: 8300000, guid: e89a69465cd558540bf6e072a1f64ea0, type: 3}
+--- !u!114 &2765730145050538288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9174415059249277822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 942dabe9e3f6d584b83877c9ac9fcb59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentMode: 0
+  morningDuration: 30
+  dayDuration: 60
+  nightDuration: 30

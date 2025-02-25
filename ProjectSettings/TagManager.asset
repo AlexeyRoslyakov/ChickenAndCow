@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - bullet
+  - Animals
+  - Egg
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - BulletEnemy
+  - BulletPlayer
+  - Enemy
+  - PickUp
+  - Animals
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 2047978241
+    locked: 0
+  - name: Walls
+    uniqueID: 1822331705
+    locked: 0
+  - name: Furniture
+    uniqueID: 1928171693
+    locked: 0
+  - name: Roof
+    uniqueID: 3824620827
+    locked: 0
+  - name: Player
+    uniqueID: 2748034113
+    locked: 0
